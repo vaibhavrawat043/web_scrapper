@@ -1,6 +1,6 @@
 # FastAPI Web Scraper
 
-This project is a web scraper built using FastAPI, Selenium, BeautifulSoup, and Redis. The scraper fetches product details from a given website, caches the results, and stores the data in a local JSON file.
+The scraper fetches product details from a given website, caches the results, and stores the data in a local JSON file.
 
 ## Features
 
@@ -37,7 +37,7 @@ This project is a web scraper built using FastAPI, Selenium, BeautifulSoup, and 
     ```
 
 4. **Download ChromeDriver**:
-    - Download ChromeDriver from [ChromeDriver Download](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+    - Download ChromeDriver from [ChromeDriver Download](https://web.archive.org/web/20240604123329/https://googlechromelabs.github.io/chrome-for-testing/#beta)
     - Extract the `chromedriver` executable to the `app/` directory.
 
 5. **Ensure ChromeDriver has execute permissions**:
@@ -91,20 +91,3 @@ This project is a web scraper built using FastAPI, Selenium, BeautifulSoup, and 
             "message": "Scraped X products"
         }
         ```
-
-- **GET /test-header**
-    - **Description**: Verifies the static token in the header.
-    - **Headers**: 
-        ```json
-        {
-            "x-token": "your-static-token"
-        }
-        ```
-    - **Response**:
-        ```json
-        {
-            "message": "Header is valid"
-        }
-        ```
-
-
