@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+venv.bak/
+
+# Visual Studio Code settings
+.vscode/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local environment configuration
+.env
+
+# Ignore other system files
+.DS_Store
